@@ -1,3 +1,9 @@
+
+Steamerzone, switched to local resources. (lit-core.min.js)
+Changed the graphs somewhat.
+
+---
+
 **Personal Note, april 2023**
 
 Getting up to speed again with my custom cards after some difficult years!
