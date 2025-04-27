@@ -1,0 +1,23 @@
+Just simplify the action:
+
+    Download the LIT core file (see note) and put it under the Flex-Horseshoe-Card directory /homeassistant/www/community/flex-horseshoe-card/lit-core.min.js
+    Modify /homeassistant/www/community/flex-horseshoe-card/flex-horseshoe-card.js
+
+//import { LitElement, html, css, svg } from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module";
+import { LitElement, html, css, svg } from "./lit-core.min.js";
+
+    Delete flex-horseshoe-card.js.gz in /homeassistant/www/community/flex-horseshoe-card/
+    Force update in hacs resource:
+
+    Open Settings → Dashboards → Resources ( click the top-right corner 3 dots)
+    Modify hacstag/hacsfiles/flex-horseshoe-card/flex-horseshoe-card.js?hacstag=20729272514
+
+
+
+
+import {
+  LitElement,
+  html,
+  css,
+  svg
+  } from "./lit-core.min.js";
